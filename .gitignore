@@ -1,0 +1,23 @@
+# Ignore the virtual environment directory
+bin/
+include/
+lib/
+lib64/
+pyvenv.cfg
+share/
+
+# Ignore common Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+*.swp
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
